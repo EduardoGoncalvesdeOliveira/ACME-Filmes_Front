@@ -7,15 +7,31 @@
     <link href="./output.css" rel="stylesheet">
 </head>
 
-<body class="bg-gradient-to-br from-vermelho from-20% to-azul to-100% h-screen">
-    <header>
+<body class="grid grid-rows-[10vh_1fr] bg-gradient-to-br from-vermelho from-20% to-azul to-100% min-h-screen bg-no-repeat bg-contain">
 
+    <header class="flex w-full p-3 justify-around items-center">
+        <img src="./img/ACME FILMES.png" alt="" class="w-1/12 max-md:w-full">
+
+        <div class="flex items-center w-2/4 h-10 bg-white rounded-xl justify-between ps-20 pe-20 itens-center">
+            <input type="text" name="Digite aqui para pesquisar um filme" id="" class=" w-3/5  flex itens-center top-14">
+            <img src="./img/lupaPerfeitamenteNormal.png" alt="">
+        </div>
+        <img src="./img/ProfileImage.png" alt="" class="w-14">
     </header>
-    <main>
-        <h1 class="text-3xl font-bold underline">
-            Hello world!
-        </h1>
-        <img src="./img/ACME FILMES.png" alt="">
+    <main class=" grid justify-center p-6">
+
+        <div class="h-full w-full grid gap-6 grid-cols-6 grid-rows-4">
+
+            <div class="flex flex-col hover:scale-110 items-center text-white text-xs">
+                <img class="" src="./img/Rectangle 32.png" alt="">
+                <h1>Em Ritmo de Fuga</h1>
+                <p>2017 - EdgarWright</p>
+            </div>
+
+
+
+        </div>
+
     </main>
 
 </body>
